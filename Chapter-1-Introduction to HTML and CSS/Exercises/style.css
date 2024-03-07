@@ -1,0 +1,61 @@
+@font-face{font-family: Handjet;
+src:url(Handjet-VariableFont_ELGR\,ELSH\,wght.ttf)}
+
+@font-face{font-family: rubik;
+    src:url(RubikDoodleShadow-Regular.ttf);
+
+}
+
+body {
+    font-family:rubik;
+    margin: 5;
+    padding: 5;
+    background-color: #f4f4f4;
+
+}
+
+h1, h2, h3 {
+    color: #5b2114;
+}
+p {
+    color: #ffff00;
+}
+.doughnut.jpeg.jpeg {
+    max-width: 20%;
+    height: auto;
+    max-height: 20px;
+}
+h1{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    font-size: 200%;
+    color: #fca800;
+    font-family: Handjet
+    
+}
+
+td{
+    font-size: 150%;
+    color:#f4f4f4;
+    font-family: Handjet
+
+}
+
+li{
+    font-size: 150%;
+    color:#f4f4f4;
+    font-family: Handjet
+}
+
+p{
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
