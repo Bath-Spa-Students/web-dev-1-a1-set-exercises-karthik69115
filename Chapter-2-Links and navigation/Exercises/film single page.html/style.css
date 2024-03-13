@@ -1,0 +1,56 @@
+body {
+    font-family:rubik;
+    margin: 5;
+    padding: 5;
+    background-color: #feae00;
+
+}
+h1{
+    text-align: center;
+    color: #feae00;
+}
+header{
+    height: 100px;
+    width: auto;
+    background-color: black;
+}
+a{
+    text-align: center;
+}
+.navbar a {
+    text-align: center;
+    margin-right: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    fill: #000000;
+    font-size:medium;
+    size: 100px;
+    left: 150px;
+    position: relative;
+}
+h3{
+    color: rgb(253, 0, 156);
+}
+
+.button {
+    background-color: #710881; 
+    border:#000000;
+    color: rgb(227, 212, 212);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 3px;
+    cursor: pointer;
+  }
+  h2{
+    color: rgb(0, 53, 100);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  tr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+  }
