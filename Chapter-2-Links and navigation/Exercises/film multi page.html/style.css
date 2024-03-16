@@ -1,0 +1,121 @@
+body {
+    background: #ffc800;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  h2{
+    text-align: center;
+    color: rgb(255, 234, 0);
+  }
+  nav a{
+    text-align: center;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  nav ul {
+    display: inline-block;
+    padding: 20;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px; 
+  }
+
+  .nav a {
+    text-align: center;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    fill: #000000;
+    font-size:medium;
+    size: 120px;
+    left: 200px;
+    position: relative;
+}
+
+  .button {
+    background-color: #710881; 
+    border:#000000;
+    color: rgb(227, 212, 212);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 3px;
+    cursor: pointer;
+  }
+
+
+h3{
+  color: rgb(253, 0 , 156);
+  text-align: center;
+}
+header{
+  height: 100px;
+  width: auto;
+  background-color: black;
+}
+
+@font-face{font-family: rubik gemstone;
+  src:url(RubikGemstones-Regular.ttf)}
+  
+  @font-face{font-family: rubik gemstone;
+      src:url(RubikGemstones-Regular.ttf);
+    }
+    h1{
+      font-family: rubik gemstone;
+      text-align: center;
+      text-shadow: #000000;
+      box-sizing: 50%;
+    }
+
+  @font-face{font-family: rubik doodle ;
+    src:url(RubikDoodleShadow-Regular.ttf)}
+    
+    @font-face{font-family: rubik doodle ;
+        src:url(RubikDoodleShadow-Regular.ttf);
+     }
+     
+     h2{
+    font-family: rubik doodle;
+    margin: 5;
+    padding: 10;
+    background-color: #000000;
+    border-radius: 35%;
+}
+p{
+  text-align:left;
+}
+
+@font-face{font-family: dancing ;
+  src:url(DancingScript-VariableFont_wght.ttf);
+}
+p{
+  font-family: dancing ;
+  font-size: 130%;
+  text-align: center;
+}
+a.button{
+  text-align: center;
+}
+a{
+  text-align: center;
+}
+mark{
+  color: black;
+}
+tr{
+  text-align: left;
+}
+
+
