@@ -1,0 +1,71 @@
+.image-container {
+    margin: 25px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border: 5px cornsilk;
+    }
+    
+  
+    header{
+        height: 110px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        background-size:auto;
+        }
+  body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+  }
+  h1{
+    color: rgb(255, 0, 0);
+    font-family: honk;
+    text-align: center;
+  }
+  p{
+    color: whitesmoke;
+    font-family: handjet;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  i{
+    color: rgb(255, 115, 0);
+  }
+  @font-face{font-family: honk;
+    src:url(Honk-Regular-VariableFont_MORF\,SHLN.ttf)}
+
+    @font-face{font-family: handjet;
+        src:url(Handjet-VariableFont_ELGR\,ELSH\,wght.ttf)}
+        
+        @font-face{font-family: rubik;
+            src:url(RubikGemstones-Regular.ttf)}
+            h2{
+                font-family: rubik;
+                font-size: 20px;
+                text-align: center;
+                color: black;
+            }
+            h3{
+                color: red;
+                font-family: handjet;
+                font-size: 30px;
+            }
+            body{
+              background-image: url(road.jpg.jpg);
+              background-size: cover;
+              opacity: 1.0;
+              filter: saturate(80%);
+            }
+            .image-container img{
+              filter: grayscale(90%);
+            }
+            .image-container2 img{
+              filter:contrast(55%);
+            }
+            .image-container3 img{
+              filter:drop-shadow(25%);
+            }
+
+
+            
