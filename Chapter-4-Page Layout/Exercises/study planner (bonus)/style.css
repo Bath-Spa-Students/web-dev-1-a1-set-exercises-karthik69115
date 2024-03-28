@@ -1,0 +1,93 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #3e3e3e;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.8;
+}
+
+li{
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border: 4px #333;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 9px;
+    background-color: #b2b2b2;
+    text-align: left;
+}
+th {
+    background-color: #3e3e3e;
+    color: #ffd900;
+}
+
+b{
+    color: red;
+}
+
+p{
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #ffd900;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #b2b2b2;
+    color: #000000;
+    padding: 10px;
+}
+
+
+.button {
+    background-color: #000000; 
+    border:#000000;
+    color: rgb(255, 234, 0);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 3px;
+    cursor: pointer;
+  }
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+footer {
+    background-color: #b2b2b2;
+    color: #ffc800;
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    text-align: center;
+}
