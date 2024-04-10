@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+  }
+  .container {
+    background-color: #ffffff;
+    opacity: 70%;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.1);
+    border: #5f2143 25px;
+  }
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  input[type="number"]:focus {
+    border-color: #56184d;
+    outline: none;
+  }
+
+  @font-face{font-family: handjet;
+    src:url(Handjet-ExtraBold.ttf);
+  }
+
+h1{
+text-align: center;
+text-shadow: #56184d;
+font-family: handjet;
+color: #5e1538;
+}
+
+p{
+  font-family: handjet;
+  font-size: large;
+}
+
+label{
+  font-family: handjet;
+  font-size: large;
+}
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5e1538;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #000000;
+  }
+  p {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+.background-image{
+    background-image: url('pump1.jpg.jpg');
+    background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
