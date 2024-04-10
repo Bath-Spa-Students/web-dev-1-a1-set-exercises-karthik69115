@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+  }
+
+  video[poster]{
+    height: 100vh;
+    width: 100vw;
+  }
+
+  html {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+  }
+
+  .video-container {
+    max-width: 81%; 
+    max-height: 81%; 
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+    right: 20%;
+    object-fit: contain;
+  }
